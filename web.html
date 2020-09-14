@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9820;&#9818;$</title>
+    <style>
+        body{
+            margin: auto;
+        }
+        .c{
+            margin: 0px 5px;
+        }
+        .h{
+            margin: 0px;
+            background-color: rgb(121, 72, 0);
+            height: 2.5rem;
+            width: 100vw;
+            position: absolute;
+            top: 0px;
+        }
+        .gr{
+            display: none;
+            font-size: 3rem;
+            position: absolute;
+            bottom: 0vh;
+            }
+        
+        .q{
+           width: 500px;
+            height: 2.5rem;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+        }
+        
+        .q a{
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            font-size: 0.5rem;
+            margin: 55px 0px 0px 20px;
+            text-decoration: none;
+        }
+        .q a:hover{
+            background-color:rgb(255, 153, 0);
+            padding: 5px;
+            }
+
+        /* .adf{
+            position: fixed;
+            width: 15vw;
+            height: 22vh;
+            min-width: 200px;
+            right: 15px;
+            top: 7px;
+            z-index: 36;
+        }
+        .adf:hover{
+            display: none;
+        }
+        .xf{
+            margin: 35px 0px; 
+            width: 30px; 
+            height: 30px;
+            background-color: #000000;
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .adf img{
+            margin: -30px 0px 30px 0px;
+            width: 100%;
+        }
+
+        .ads{
+            position: fixed;
+            width: 15vw;
+            height: 22vh;
+            min-width: 200px;
+            left: 15px;
+            top: 55vh;
+        }
+        .ads:hover{
+            visibility: hidden
+            transition: all .5s;
+        }
+        .xs{
+            width: 30px; 
+            height: 30px; 
+            margin: 35px 0px 35px 0px; 
+            background-color: #000000;
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .ads img{
+            margin: -30px 0px 130px 0px;
+            width: 100%;
+            z-index: 10;
+        } */
+        #hf{
+            width: 100vw;
+            margin: auto;
+        }
+
+        #f{
+            display: flex;
+            align-content: center;
+            width: 100vw;
+            margin: 3rem 0px 0px;
+            overflow: hidden;
+        }
+        #f .fl img{
+            width: 102vw;
+            animation: bg 10s infinite;
+        }
+        @keyframes bg{
+             0%{transform: translate(0,0);}
+            20%{transform: translate(0,0);}
+            25%{transform: translate(-100%,0);}
+            45%{transform: translate(-100%,0);}
+            50%{transform: translate(-200%,0);}
+            70%{transform: translate(-200%,0);}
+            75%{transform: translate(-300%,0);}
+            95%{transform: translate(-300%,0);}
+            100%{transform: translate(-400%,0);}
+        }
+        .s{
+            display: flex;
+            align-content: center;
+            width: 100vw;
+            margin: 15px 0px 15px 0px;
+        }
+        .sa,.sb,.sc{
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(53, 53, 53);
+            margin: auto;
+        }
+        .sa p{
+            width: 26vw;
+            margin: 5px 15px 20px 5px;
+        }
+        .sb p{
+            width: 26vw;
+            margin: 5px 15px 20px 5px;
+        }
+        .sc p{
+            width: 26vw;
+            margin: 5px 15px 20px 5px;
+        }
+        .sa img{
+            margin: 10px 10px 0px 10px;
+            width: 26vw;
+        }
+        .sb img{
+            margin: 10px 10px 0px 10px;
+            width: 26vw;
+        }
+        .sc img{
+            margin: 10px 10px 0px 10px;
+            width: 26vw;
+        }
+        h1{text-align: center;}
+        .p{
+            width: 90vw;
+            margin: auto;
+            background-color: rgb(47, 47, 49);
+            font-style: normal;
+            padding: 1px 15px;
+        }
+        .rr{
+            color:ghostwhite;
+        }
+        .t{
+            display: flex;
+            align-content: center;
+            width: 0vw;
+            margin: 10px 0px 0px;
+        }
+        .t img{
+            margin: 30px 0px: 35px 0px;
+            width: 50vw;
+        }
+        .floot{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(27, 27, 27);
+            width: 100vw;
+        }
+        .so{
+            margin: 5vh 0px 50px 0px;
+        }
+        .so img{
+            width: 5vw;
+            display: flex;
+            align-self: start;
+            margin: 15px 15px 15px 5vw;
+        }
+        .ce{
+            width: 70vw;
+            display: flex;
+            align-content: center;
+            margin: 15vh 5px 0px 0px;
+            color: rgb(255, 255, 255);
+        }
+        .ce p{
+            margin: auto;
+        }
+        .lo img{
+            width: 10vw;
+            margin: 20px;
+        }
+        @media screen and (max-width: 576px) {
+            .c{
+                width: 100vw;
+            }
+            .h{
+                display: flex;
+                position: absolute;
+                right: -10px;
+                width: 105vw;
+                }
+            .q{display: none;}
+            ul.gr{
+                position: absolute;
+                top: -48px;
+                left: 20px;
+                width: 30px;
+                background-color: tomato;
+                z-index: 22;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(109, 62, 0);
+                display: block;
+                }
+                ul.gr li a{background-color:rgb(121, 72, 0) ;}
+            ul{
+            	list-style:none;
+            	padding:0;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(255, 145, 0);
+            	}
+            li{
+            	width:130px;
+            	line-height: 40px;
+            	text-align:center;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(255, 145, 0)
+                text-align: left;
+                font-size: 1.5rem;
+            }
+            a{
+            	text-decoration:none;
+            	display:block;
+            	color:rgb(255, 255, 255);
+            	background-color:rgb(117, 66, 0);
+            }               
+            ul.gr li ul li a{background-color: coral;}                   
+                a:hover{background-color:rgb(136, 88, 0);}
+                ul.gr ul a:hover{background-color:rgb(161, 110, 0);}
+                ul.gr li ul{display:none;}
+                ul.gr li:hover ul{display:block}
+                
+        #f{
+            width: 102vw;
+            margin: 3rem 0px 0px;
+        }
+        #f img{
+            width: 101vw;
+        }
+        .s{
+            display: flex;
+            align-content: center;
+            flex-flow: column;
+            width: 100vw;
+            margin: 0px 0px 15px 0px;
+        }
+        .sa{
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(214, 38, 38);
+            margin: auto;
+            width: 100vw;
+            clear: both;
+        }
+        .sb{
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(214, 38, 38);
+            margin: auto;
+            width: 100vw;
+            clear: both;
+        }
+        .sc{
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(214, 38, 38);
+            margin: auto;
+            width: 100vw;
+            clear: both;
+        }
+        .sa p{
+            width: 95vw;
+            margin: 5px 10px 20px 10px;
+            text-align: center;
+        }
+        .sb p{
+            width: 95vw;
+            margin: 5px 10px 20px 10px;
+            text-align: center;
+        }
+        .sc p{
+            width: 95vw;
+            margin: 5px 10px 20px 10px;
+            text-align: center;
+        }
+        .sa img{
+            margin: 0px 0px 0px 0px;
+            width: 100vw;
+        }
+        .sb img{
+            margin: 0px 0px 0px 0px;
+            width: 100vw;
+        }
+        .sc img{
+            margin: 0px 0px 0px 0px;
+            width: 100vw;
+        }
+        .p{
+            width: 90vw;
+            margin: auto;
+            background-color: rgb(47, 47, 49);
+            font-style: normal;
+            padding: 1px 15px;
+        }
+        .rr{
+            text-align: center;
+            width: 80vw;
+            margin: 20px 15px;
+            }
+        .t{
+            display: flex;
+            align-content: center;
+            flex-flow: column;
+            width: 100vw;
+            margin: 10px 0px 0px;
+        }
+        .t img{
+            margin: 30px 0px: 15px 0px;
+            width: 100vw;
+        }
+        .floot{
+            display: flex;
+            align-content: flex-end;
+            flex-flow: column;
+            background-color: rgb(27, 27, 27);
+            width: 100vw;
+        }
+        .so{
+            display: flex;
+            align-content: flex-end;
+            justify-content: flex-end;
+            margin: 3px 20px 20px;
+        }
+        .so img{
+            margin: 3px;
+            float: right;
+        }
+        .ce{
+            max-width: 90vw;
+            min-width: 270px;
+            text-align:center;
+            margin: -85px 80px 0px;
+            color: rgb(255, 255, 255);
+        }
+        .lo{
+            display: flex;
+            /* justify-content: flex-start; */
+            align-content: flex-start;
+            flex-flow: column-reverse;
+            
+        }
+         /* <div class="adf">
+        <div class="xf">
+            &#9746;
+        </div>
+        <div class="if">
+        <img src="img/01.png" alt="">
+        </div>
+        </div>
+        
+        <div class="ads">
+        <div class="xs">
+            &#9746;
+        </div>
+        <div class="is">
+        <img src="img/11.png" alt="">
+        </div>
+        </div> */
+    </style>
+</head>
+<body>
+<div class="c">
+<div class="h">
+    <div class="q">     
+    <a href="#">HOME</a>
+    <a href="#">Store check</a>
+    <a href="#">Menu</a>
+    <a href="#">About us</a>
+    <a href="#">Contact us</a>
+    <a href="#">Recruiting</a>
+    </div>
+    <ul class="gr">
+    <li><a href="#" target="_self">&equiv;</a>
+    <ul>
+    <li><a href="#" target="_self"></a></li>
+    <li><a href="#" target="_self">HOME</a></li>
+    <li><a href="#" target="_self">Store check</a></li>
+    <li><a href="#" target="_self">Menu</a></li>
+    <li><a href="#" target="_self">About us</a></li> 
+    <li><a href="#" target="_self">Contact us</a></li> 
+    <li><a href="#" target="_self">Recruiting</a></li>
+    </ul>
+    </li>
+    </ul>
+</div>
+
+<div id="hf">
+    <div id="f">
+            <div class="fl"><img src="https://picsum.photos/1500/350/?random=1"></div>
+            <div class="fl"><img src="https://picsum.photos/1500/350/?random=2"></div>
+            <div class="fl"><img src="https://picsum.photos/1500/350/?random=3"></div>
+            <div class="fl"><img src="https://picsum.photos/1500/350/?random=4"></div>
+            <div class="fl"><img src="https://picsum.photos/1500/350/?random=1"></div>
+        </div>
+</div>
+        <div class="s">
+            <div class="sa">
+                <img src="https://picsum.photos/390/350/?random=1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia cumque ipsum beatae quidem unde laboriosam recusandae 
+                    voluptas fugit! Ipsa voluptates doloribus numquam expedita 
+                    nobis repellat repudiandae omnis delectus dolores explicabo!
+                </p>
+            </div>
+            <div class="sb">
+                <img src="https://picsum.photos/390/350/?random=2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia cumque ipsum beatae quidem unde laboriosam recusandae 
+                    voluptas fugit! Ipsa voluptates doloribus numquam expedita 
+                    nobis repellat repudiandae omnis delectus dolores explicabo!
+                </p>
+            </div>
+            <div class="sc">
+                <img src="https://picsum.photos/390/350/?random=3">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia cumque ipsum beatae quidem unde laboriosam recusandae 
+                    voluptas fugit! Ipsa voluptates doloribus numquam expedita 
+                    nobis repellat repudiandae omnis delectus dolores explicabo!
+                </p>
+            </div>
+        </div>
+
+    <h1>
+        <iframe width="100%" min-height="100%" height="534" src="https://www.youtube.com/embed/_2xMsdhPtlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </h1>
+
+        <div class="p">
+            <div class="rr">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi inventore odio, possimus optio iure nesciunt 
+            laudantium! Odio, sapiente sunt, velit nemo impedit doloremque, perferendis odit pariatur excepturi quibusdam 
+            ab eveniet?Odit omnis sit eos corporis nostrum. Numquam tempore quis illum excepturi rerum. Quibusdam dolore 
+            soluta eaque ducimus aliquam dolorum animi, doloribus quis, tempora aspernatur eligendi facilis vitae possimus 
+            repudiandae esse!Doloremque ullam nulla earum quam distinctio repellendus voluptas, quisquam delectus fugiat 
+            quasi dolore at consequuntur minus obcaecati? Nihil nobis praesentium, odio, eum dolor aperiam laudantium quasi 
+            quae, velit enim facere.</p>
+        </div>
+        </div>
+        <div class="t">
+            <img src="https://picsum.photos/750/300/?random=1">
+            <img src="https://picsum.photos/750/300/?random=2">
+        </div>
+        <div class="floot">
+            <div class="lo">
+                <img src="img/pizza hut.png" alt="">
+            </div>
+            <div class="ce">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tempore sed amet ea ducimus itaque deleniti Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Quibusdam, 
+                    libero. Deleniti quia nobis rem nam debitis cum molestias 
+                    mollitia blanditiis unde. Praesentium dolore, maiores 
+                    cupiditate officia necessitatibus quos nemo eligendi! 
+                    rerum quaerat. Cum aliquam beatae dolore,Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Sit dolore 
+                    ducimus laboriosam ullam, earum laborum amet maiores labore 
+                    exercitationem aliquid. Ad cum id non impedit harum tempore 
+                    quod fuga dolore? velit magnam nemo vel, eum hic minima 
+                    impedit in.ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tempore sed amet ea ducimus itaque deleniti Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Quibusdam, 
+                    libero. Deleniti quia nobis rem nam debitis cum molestias 
+                    mollitia blanditiis unde. Praesentium dolore, maiores 
+                    cupiditate officia necessitatibus quos nemo eligendi! 
+                    rerum quaerat. Cum aliquam beatae dolore,Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Sit dolore 
+                    ducimus laboriosam ullam, earum laborum amet maiores labore 
+                    exercitationem aliquid. Ad cum id non impedit harum tempore 
+                    quod fuga dolore? velit magnam nemo vel, eum hic minima 
+                    impedit inp>.</p>
+            </div>
+            <div class="so">
+                <img src="img/FB.png" alt="">
+                <img src="img/IG.png" alt="">
+                <img src="img/line.png" alt="">
+                <img src="img/T.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+       
