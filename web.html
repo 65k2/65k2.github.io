@@ -113,7 +113,7 @@
             overflow: hidden;
         }
         #f .fl img{
-            width: 102vw;
+            width: 100vw;
             animation: bg 10s infinite;
         }
         @keyframes bg{
@@ -177,41 +177,61 @@
         .t{
             display: flex;
             align-content: center;
-            width: 0vw;
+            width: 100vw;
             margin: 10px 0px 0px;
         }
         .t img{
             margin: 30px 0px: 35px 0px;
-            width: 50vw;
+            width: 49.5vw;
         }
         .floot{
             display: flex;
             justify-content: center;
             background-color: rgb(27, 27, 27);
-            width: 100vw;
+            width: 99.1vw;
         }
         .so{
-            margin: 5vh 0px 50px 0px;
+            margin: 5vh 35px 50px 0px;
         }
         .so img{
             width: 5vw;
             display: flex;
             align-self: start;
-            margin: 15px 15px 15px 5vw;
+            margin: 15px 15px 15px 0px;
         }
         .ce{
-            width: 70vw;
+            width: 35vw;
             display: flex;
+            justify-content: center;
             align-content: center;
-            margin: 15vh 5px 0px 0px;
+            margin: 5vh 5vw 0px 0px;
             color: rgb(255, 255, 255);
         }
-        .ce p{
+        .ce ul{
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            margin: 5vh 15px 0px 5px;
+            list-style:none;
             margin: auto;
+            text-align: center;
+        }
+        .ce li{
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            font-size: 1.3rem;
+            list-style:none;
+            margin: 15px auto;
+            text-align: center;
+        }
+        .lo{
+            width: 10vw;
+            margin: 10px 10px 80px 0px;
+            width: 25vw;
         }
         .lo img{
             width: 10vw;
             margin: 20px;
+            width: 25vw;
         }
         @media screen and (max-width: 576px) {
             .c{
@@ -367,21 +387,58 @@
         .so img{
             margin: 3px;
             float: right;
+            width: 15vw;
         }
         .ce{
-            max-width: 90vw;
-            min-width: 270px;
+            max-width: 50vw;
+            min-width: 170px;
             text-align:center;
-            margin: -85px 80px 0px;
+            margin: -85px 110px 0px;
             color: rgb(255, 255, 255);
+            flex-flow: column;
+        }
+        .ce li{
+            background-size: 1.5rem;
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            text-align:center;
+            margin: auto;
+        }
+        .ce h1{
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            text-align:center;
+        }
+        .ce ul{
+            background-color: rgb(27, 27, 27);
+            color: rgb(255, 255, 255);
+            text-align:center;
+            list-style:none;
+        }
+        .oo{
+            display: flex;
+            align-content: space-between;
+            flex-flow: column;
+            text-align: center;
+        }
+        .tt{
+            display: flex;
+            align-content: space-between;
+            flex-flow: column;
+            text-align: center;
+        }
+        .o{
+            width: 50vw;
         }
         .lo{
             display: flex;
             /* justify-content: flex-start; */
             align-content: flex-start;
             flex-flow: column-reverse;
-            
         }
+        .lo img{
+            width: 25vw;
+            }
          /* <div class="adf">
         <div class="xf">
             &#9746;
@@ -490,29 +547,27 @@
                 <img src="img/pizza hut.png" alt="">
             </div>
             <div class="ce">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Tempore sed amet ea ducimus itaque deleniti Lorem ipsum 
-                    dolor sit amet consectetur adipisicing elit. Quibusdam, 
-                    libero. Deleniti quia nobis rem nam debitis cum molestias 
-                    mollitia blanditiis unde. Praesentium dolore, maiores 
-                    cupiditate officia necessitatibus quos nemo eligendi! 
-                    rerum quaerat. Cum aliquam beatae dolore,Lorem ipsum 
-                    dolor sit amet consectetur adipisicing elit. Sit dolore 
-                    ducimus laboriosam ullam, earum laborum amet maiores labore 
-                    exercitationem aliquid. Ad cum id non impedit harum tempore 
-                    quod fuga dolore? velit magnam nemo vel, eum hic minima 
-                    impedit in.ipsum dolor sit amet consectetur adipisicing elit. 
-                    Tempore sed amet ea ducimus itaque deleniti Lorem ipsum 
-                    dolor sit amet consectetur adipisicing elit. Quibusdam, 
-                    libero. Deleniti quia nobis rem nam debitis cum molestias 
-                    mollitia blanditiis unde. Praesentium dolore, maiores 
-                    cupiditate officia necessitatibus quos nemo eligendi! 
-                    rerum quaerat. Cum aliquam beatae dolore,Lorem ipsum 
-                    dolor sit amet consectetur adipisicing elit. Sit dolore 
-                    ducimus laboriosam ullam, earum laborum amet maiores labore 
-                    exercitationem aliquid. Ad cum id non impedit harum tempore 
-                    quod fuga dolore? velit magnam nemo vel, eum hic minima 
-                    impedit inp>.</p>
+            <div class="oo">
+             <ul class="o">
+                    <h1>關於我們</h1>
+                 <li>企業簡介</li>
+                 <li>品牌故事</li>
+                 <li>社會責任</li>
+                 <li>原料來源</li>
+                 <li>產品管理</li>
+                 </ul>
+                 </div>
+            <div class="tt"> 
+            <ul class="o">
+                    <h1>加入我們</h1>
+                 <li>職場圓夢</li>
+                 <li>加盟優勢</li>
+                 <li>臺灣加盟</li>
+                 <li>海外加盟</li>
+                 <li>加盟QA</li>
+                 </ul>
+                 </div>
+            <div class="rr"></div>
             </div>
             <div class="so">
                 <img src="img/FB.png" alt="">
