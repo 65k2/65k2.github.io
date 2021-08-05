@@ -1,5 +1,3 @@
-# 65k2.github.io
-mg3
 <!DOCTYPE html>
 <html lang="en">
 <head>
