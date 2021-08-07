@@ -14,6 +14,40 @@
         .c{
             margin: 50px auto 5px auto;
         }
+        .oh{
+            margin: 0px;
+            background-color: rgb(31, 29, 56);
+            height: 3.5rem;
+            width: 100vw;
+            position: absolute;
+            top: 0px;
+        }
+        .ogr{
+            display: none;
+            font-size: 3rem;
+            position: absolute;
+            bottom: 0vh;
+            }
+        
+        .oq{
+           width: 750px;
+            height: 3.5rem;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+        }
+        
+        .oq a{
+            color: #ffffff;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            margin: 35px 0px 0px 20px;
+            text-decoration: none;
+        }
+        .oq a:hover{
+            background-color:rgb(0, 225, 255);
+            padding: 5px;
+            }
         .h img{
             border-style: none;
             display: flex;
@@ -88,6 +122,55 @@
             .r {display: none;}   
             }
         @media screen and (max-width: 576px) {
+            .oh{
+                display: flex;
+                position: absolute;
+                right: -5px;
+                width: 100vw;
+                }
+            .oq{display: none;}
+            ul.ogr{
+                position: absolute;
+                top: -48px;
+                left: 0px;
+                width: 50px;
+                background-color: rgb(31, 29, 56)
+                z-index: 22;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(109, 62, 0);
+                display: block;
+                }
+                ul.gr li a{background-color:rgb(31, 29, 56) ;}
+            ul{
+            	list-style:none;
+            	padding:0;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(31, 29, 56);
+                z-index: 22;
+            	}
+            li{
+            	width:130px;
+            	line-height: 40px;
+            	text-align:center;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(31, 29, 56))
+                text-align: left;
+                font-size: 1.5rem;
+                z-index: 22;
+            }
+            a{
+            	text-decoration:none;
+            	display:block;
+            	color:rgb(255, 255, 255);
+            	background-color:rgb(31, 29, 56);
+                z-index: 22;
+                font-size: 1rem;
+            }               
+            ul.ogr li ul li a{background-color:rgb(31, 29, 56) ;}                   
+                a:hover{background-color:rgb(31, 29, 56);}
+                ul.ogr ul a:hover{background-color:rgb(0, 225, 255);}
+                ul.ogr li ul{display:none;}
+                ul.ogr li:hover ul{display:block}
             .c {display: flex; justify-content: center;}
             .h {display: flex; justify-content: center;}
             .c img{width: 90vw;} 
@@ -97,6 +180,29 @@
     </style>
 </head>
 <body>
+   <div class="oh">
+    <div class="oq">     
+    <a href="https://65k2.github.io/getjob.html">首頁</a>
+    <a href="#">企業</a>
+    <a href="#">熱門</a>
+    <a href="#">型錄</a>
+    <a href="#">最新</a>
+    <a href="https://65k2.github.io/getlife.html">圖片</a>
+    </div>
+    <ul class="ogr">
+    <li><a href="#" target="_self">&equiv;</a>
+    <ul>
+    <li><a href="#" target="_self"></a></li>
+    <li><a href="https://65k2.github.io/getjob.html" target="_self">首頁</a></li>
+    <li><a href="#" target="_self">企業</a></li>
+    <li><a href="#" target="_self">熱門</a></li>
+    <li><a href="#" target="_self">型錄</a></li> 
+    <li><a href="#" target="_self">最新</a></li> 
+    <li><a href="https://65k2.github.io/getlife.html" target="_self">圖片</a></li>
+    </ul>
+    </li>
+    </ul>
+</div>
    <div class="q">
         <a href="img/01.png" target="start"><img src="img/1.png" alt=""></a>
         <a href="img/02.png" target="start"><img src="img/2.png" alt=""></a>
