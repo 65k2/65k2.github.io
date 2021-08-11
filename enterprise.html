@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enterprise</title>
+    <style>
+        body{
+            margin: 0px auto 0px auto;
+            background-color: rgb(255, 217, 136);
+        }
+        
+        .oh{
+            margin: 0px;
+            background-color: rgb(31, 29, 56);
+            height: 3.5rem;
+            width: 100vw;
+            position: absolute;
+            top: 0px;
+        }
+        .ogr{
+            display: none;
+            font-size: 3rem;
+            position: absolute;
+            display: block;
+            background-color:rgb(31, 29, 56);
+            bottom: 300vh;
+            } 
+        
+        .oq{
+            width: 100vw;
+            height: 3.5rem;
+            position: absolute;
+            top: 0px;
+            text-align: center;
+            margin: 10px auto 0px;
+        }
+        
+        .oq a{
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            font-size: 1.5rem;
+            margin: 35px 0px 0px 20px;
+            text-decoration: none;
+        }
+        .oq a:hover{
+            background-color:rgb(0, 225, 255);
+            padding: 5px;
+            }
+        .a{
+            background-color: rgb(255, 217, 136);
+            margin: 0px 150px 0px 150px;
+            /* height: 900vh; */
+        }
+        a{
+            height: 10vh;
+            max-width: 7vw;
+            margin: 5px 5px;
+        }
+        .cd{
+            /* height: 70vh; */
+            /* width: 100px; */
+            position: fixed;
+            right: 46px;
+            bottom: 70px;
+            padding: auto;
+        }
+        .ic{
+            /* height: 70px; */
+            /* width: 100px; */
+            background-color: rgb(255, 217, 136);
+            /* float: right; */
+            margin: 0px;
+        }
+        .ic a img{
+            width: 80px;
+            margin: 5px;
+        }
+        .d{
+            /* height: 350px; */
+            width: 78px;
+            background-color: rgb(140, 140, 140);
+            /* float: right; */
+            margin: 10px auto 10px;
+            /* padding: auto; */
+        }
+        .d a{
+            color: rgb(28, 28, 28);
+            font-size: 2rem;
+            /* margin: 10px auto 10px; */
+            text-align: center;
+            text-decoration: none;
+            padding: auto;
+        }
+        br{font-size: 0px;}
+        .e{
+            /* height: 50vh; */
+            /* width: 100vw; */
+            background-color: rgba(136, 0, 0, 0.308);
+            margin: 15px auto 0px;
+            padding-top: 5px;
+        }
+        .ee{
+            width: 1100px;
+            margin: 25px auto 15px;
+            background-color: blanchedalmond;
+            text-align: center;
+            font-size: 5rem;
+            /* height: 170px; */
+            padding-top: 5px;
+            /* line-height: 2px; */
+        }
+        .ue{
+            margin: 25px 25px 10px;
+            /* background-color: blanchedalmond; */
+            text-align: center;
+            font-size: 1.5rem;
+            padding-bottom: 20px;
+        }
+        .ue h1{
+            font-size: 2rem;
+            margin: 2px auto ;
+        }
+        .ue p{
+            padding: 5px 50px 5px;
+            word-wrap: break-all;
+            line-height: 25px;
+            margin: 2px;
+        }
+        .f{
+            height: 50vh;
+            /* width: 100vw; */
+            background-color: rgba(157, 94, 0, 0.748);
+        }
+        .fa{
+            background-color: blanchedalmond;
+            border: rgb(0, 0, 0);
+            float: left;
+            margin: 25px;
+            height: 350px;
+            width: 350px;
+            font-size: 5rem;
+        }
+        .fb{
+            font-size: 1.2rem;
+            float: left;
+            width: 850px;
+            padding-top: 0px;
+        }
+        .g{
+            background-color: rgba(135, 0, 0, 0.29);
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .g h1{font-size: 1.2rem;margin: 2px auto 2px;}
+        .g p{font-size: 1rem;margin: 2px auto 2px;}
+        .ih{
+            /* height: 70vh; */
+            /* width: 100vw; */
+            background-color: rgba(150, 97, 0, 0.72);
+            text-align: center;
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        
+        
+        /* @media screen and (max-width: 2000px) {
+            .h {display: none;}
+            .c {display: none;}
+            .q {display: flex; justify-content: center;}
+            .r {display: flex; justify-content: center;}    
+            }
+        @media screen and (max-width: 768px) {
+            .c {display: flex; justify-content: center;}
+            .h {display: flex; justify-content: center;}
+            .h img{max-width: 90vw;} 
+            .q {display: none;}   
+            .r {display: none;}   
+            }
+        @media screen and (max-width: 576px) {
+            .oh{
+                width: 100vw;
+                height: 30px;
+                margin: 0px 0px 50px;           
+                }
+            .oq{display: none;}
+            ul.ogr{
+                position: relative;
+                top: 0px;
+                left: 0px;
+                height: 30px;
+                width: 700px;
+                z-index: 22;
+                color:rgb(255, 255, 255);
+            	background-color: rgb(31, 29, 56);
+                display: block;
+                margin: 0px;
+                }
+            ul.ogr li a{
+                background-color:rgb(31, 29, 56);
+                height: 30px;
+                width: 2100px;
+                margin: 0px;
+            }
+            ul{
+            	list-style: none;
+                position: relative;
+                left: 0px;
+            	padding: 0;
+                color:rgb(255, 255, 255);
+            	background-color:rgb(31, 29, 56);
+                z-index: 22;
+                text-align: center;
+                width: 70px;
+            	}
+            li{
+            	width: 700px;
+                height: 30px;
+            	text-align: center;
+                color:rgb(255, 255, 255);
+            }
+            a{
+            	text-decoration: none;
+            	display: block;
+            	color:rgb(255, 255, 255);
+            	background-color:rgb(31, 29, 56);
+                z-index: 22;
+                font-size: 1rem;
+                text-align: center;
+                width: 70px;
+            }
+            ul.on{
+                width: 70px;
+            }               
+            ul.ogr li ul li a{
+                background-color:rgb(31, 29, 56);
+                height: 30px;
+                width: 2100px;
+                text-align: center;
+                border: 20px 0px 0px;
+                line-height: -20px;
+            }                   
+                a:hover{background-color:rgb(31, 29, 56);}
+                ul.ogr ul a:hover{background-color:rgb(0, 225, 255);}
+                ul.ogr li ul{
+                    display: none;
+                    margin: 0px;
+                    width: 0px;
+                }
+                ul.ogr li:hover ul{display:block}
+            .c {display: flex; justify-content: center;}
+            .h {display: flex; justify-content: center;}
+            .c img{width: 90vw;} 
+            .q {display: none;}   
+            .r {display: none;}   
+            } */
+    </style>
+</head>
+<body>
+   <div class="oh">
+    <div class="oq">     
+    <a href="https://65k2.github.io/gotjob.html">首頁</a>
+    <a href="https://65k2.github.io/enterprise.html">企業</a>
+    <a href="https://65k2.github.io/hot.html">熱門</a>
+    <a href="#">型錄</a>
+    <a href="#">最新</a>
+    <a href="https://65k2.github.io/photo.html">圖片</a>
+    </div>
+    <ul class="ogr">
+    <li><a href="#" target="_self">&equiv;</a>
+    <ul>
+    <li><a href="https://65k2.github.io/gotjob.html" target="_self">首頁</a></li>
+    <li><a href="https://65k2.github.io/enterprise.html" target="_self">企業</a></li>
+    <li><a href="https://65k2.github.io/hot.html" target="_self">熱門</a></li>
+    <li><a href="#" target="_self">型錄</a></li> 
+    <li><a href="#" target="_self">最新</a></li> 
+    <li><a href="https://65k2.github.io/photo.html" target="_self">圖片</a></li>
+    </ul>
+    </li>
+    </ul>
+</div>
+<a name="t"></a>
+      <div class="a">
+          <div class="b">公司名稱</div>
+          <div class="cd">
+              <div class="ic">
+                  <a href="https://zh-tw.facebook.com/managertoday/"><img src="img/FB.png" alt=""></a><br>
+                  <a href="https://www.instagram.com/photoshop/"><img src="img/IG.png" alt=""></a><br>
+                  <a href="https://twitter.com/burgerking"><img src="img/T.png" alt=""></a><br>
+                  <a href="https://line.me/zh-hant/"><img src="img/line.png" alt=""></a><br>
+              </div>
+              <br>
+              <div class="d">
+                <a href="#t">最頂</a><br>
+                <a href="#e">簡介</a><br>
+                <a href="#f">故事</a><br>
+                <a href="#g">理念</a><br>
+                <a href="#h">影片</a><br>
+                <!-- <a href="#t">最頂</a>
+                <br>
+                <a href="#e">簡介</a>
+                <br>
+                <a href="#f">故事</a>
+                <br>
+                <a href="#g">理念</a>
+                <br>
+                <a href="#h">影片</a> -->
+              </div>
+            </div>
+          <a name="e"></a>  
+          <div class="e">
+              <div class="ee">公司名稱</div>
+              <div class="ue">
+                  <h1>服務項目</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur dignissimos commodi ratione recusandae iste, earum ducimus quidem laboriosam vel autem similique, molestiae temporibus numquam odit. Sint in odio asperioresLorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur dignissimos commodi ratione recusandae iste, earum ducimus quidem laboriosam vel autem similique, molestiae temporibus numquam odit. Sint in odio asperiores.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur dignissimos commodi ratione recusandae iste, earum ducimus quidem laboriosam vel autem similique, molestiae temporibus numquam odit. Sint in odio asperioresLorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur dignissimos commodi ratione recusandae iste, earum ducimus quidem laboriosam vel autem similique, molestiae temporibus numquam odit. Sint in odio asperiores.</p>
+              </div>
+          </div>
+          <a name="f"></a>
+          <div class="f">
+              <div class="fa">
+                  公司照片
+              </div>
+              <div class="fb">
+                  <p>
+                    到會那立落師不青雜我孩要己告高得房，動做生。都是乎目級兩……回皮五母半性張天跟展突愛球……光提關可。化步上，家寫子歡話保間理展密。頭聽了沒考教兩年傳我它教。了原念上中構：式定整論；己多的法務來意樣，往中運場實！因直續個一下計！軍而資的希操府主後使不二強勢保影然別筆民都重筆得速一產；真輕打大就的有血已議包教！臺勢題，寫腳則的父畫起用。說生頭來向字不子？觀語公不去年配能最眼試山書品職大失謝新生家，寫馬花健由，世運險了字都生條究西示，年動建外斯書？都們建為也。
+
+                    據而要表以可命全味養家北，去舉族會房熱和東工起去面由自白健吃，要該學影他把前相過創天遊士一方細十時孩朋無說是詩。
+                    
+                    山通前現都，別參紙這到對樂母應生風還方靜通中教動，這完年，現在需在提力重面究大人生的有開看教人度指、今此球請的著，並題教信吸已大養對常樣小，有人你絕子。研世著，日好立步得環天，人軍林線時生步子爭，是求自然看同一日間家著氣程友重時頭灣跟護，我中於重的拉。界資電經臺，廠活個總候進能常工氣白特阿中利想黑起成生著的大造……區日情。河工運入後等好小去。光腦岸成情使以是最力時我？行上木的求想我、失時個，機食局龍也……分報依持片的拉念！
+                    
+                    路白像法示一口別相奇一吸目優發，告學讀英家書人際學大光？是長黨龍送！社樂臉一不進因，與石好音氣者發。
+                    
+                    不記不生毒你而關中推爸談問以成決花待，詩路時我廣工別觀東面、失解史低、國再就上那得是開考喜雜影決依？
+                  </p>
+              </div>
+          </div>
+          <a name="g"></a>
+          <div class="g">
+              <h1>企業理念</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了提供更優質的產品，無時無刻的努力著。</p>
+              <h1>滿足顧客</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了能滿足顧客的需求，無時無刻的努力著。</p>
+              <h1>永續經營</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了保護環境永續經營，無時無刻的努力著。</p>
+              <h1>貢獻社會</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了回饋鄉里貢獻社會，無時無刻的努力著。</p>
+              <h1>誠實文化</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了誠實文化維持信譽，無時無刻的努力著。</p>
+              <h1>創新文化</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了創新文化自我精進，無時無刻的努力著。</p>
+              <h1>優良品質</h1>
+              <p>遵守自敝公司成立以來時時刻刻不曾違背過的精神，每分每秒都競競業業為了達到高水準的品管，無時無刻的努力著。</p>
+          </div>
+          <a name="h"></a>
+          <div class="ih">
+              <p><video src="img/0505.mp4" width="1150" hight="700" controls></video></p>
+          </div>
+          
+      </div>
+</body>
+</html>
